@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="style.css">
+
+
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+</head>
+
+<body>
+	<div class="container">
+		<h1>Login Page</h1>
+
+		
+		<form action="action.php" method="post">
+			<input type="text" name="name" id="name"
+				placeholder="Enter Name" required>
+			<br>
+            <input type="email" name="emai" id="name"
+            placeholder="Email id">
+            <br>
+            <input type="password" name="password" id="name"
+            placeholder="Enter Password">
+
+			
+			<div class="g-recaptcha"
+				data-sitekey="6LdYXTYlAAAAAOIzz641mC-xJWJYwPadS2JLhRvt">
+			</div>
+			<br>
+
+			<button type="submit" name="submit">
+				Submit
+			</button>
+		</form>
+	</div>
+</body>
+
+</html>
